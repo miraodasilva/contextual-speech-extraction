@@ -1,4 +1,5 @@
 # Contextual Speech Extraction
+![image](https://github.com/user-attachments/assets/6a211c31-bfa1-4c27-862a-965deef7a781)
 
 This repository contains the PyTorch implementation of the following paper:
 > **Contextual Speech Extraction: Leveraging Textual History as an Implicit Cue for Target Speech Extraction**<br>
