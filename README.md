@@ -255,9 +255,9 @@ CHECKPOINT=./pretrained/DailyTalk_ContSep.ckpt
 
 CUDA_VISIBLE_DEVICES=$GPUS \
 python test.py \
---dailytalk_data_path `/fsx/minsu/Dataset/DailyTalk_processed_16k` \
---spokenwoz_data_path `/fsx/minsu/Dataset/SpokenWoz_preprocessed` \
---tedlium_data_path `/fsx/minsu/Dataset/TEDLIUM_release-3_CSF` \
+--dailytalk_data_path `set_dir_to/DailyTalk_processed_16k` \
+--spokenwoz_data_path `set_dir_to/SpokenWoz_preprocessed` \
+--tedlium_data_path `set_dir_to/TEDLIUM_release-3_CSF` \
 --test_dataset dailytalk \
 --test_model ContSep \
 --sr 8000 \
@@ -281,9 +281,9 @@ CHECKPOINT=./pretrained/TEDLIUM_HContExt.ckpt
 
 CUDA_VISIBLE_DEVICES=$GPUS \
 python test_HContExt.py \
---dailytalk_data_path `/fsx/minsu/Dataset/DailyTalk_processed_16k` \
---spokenwoz_data_path `/fsx/minsu/Dataset/SpokenWoz_preprocessed` \
---tedlium_data_path `/fsx/minsu/Dataset/TEDLIUM_release-3_CSF` \
+--dailytalk_data_path `set_dir_to/DailyTalk_processed_16k` \
+--spokenwoz_data_path `set_dir_to/SpokenWoz_preprocessed` \
+--tedlium_data_path `set_dir_to/TEDLIUM_release-3_CSF` \
 --test_dataset tedlium \
 --sr 8000 \
 --cue joint \
@@ -307,9 +307,9 @@ CHECKPOINT=./pretrained/Tedlium_3spk_Sepformer.ckpt
 
 CUDA_VISIBLE_DEVICES=$GPUS \
 python test_cascaded.py \
---dailytalk_data_path `/fsx/minsu/Dataset/DailyTalk_processed_16k` \
---spokenwoz_data_path `/fsx/minsu/Dataset/SpokenWoz_preprocessed` \
---tedlium_data_path `/fsx/minsu/Dataset/TEDLIUM_release-3_CSF` \
+--dailytalk_data_path `set_dir_to/DailyTalk_processed_16k` \
+--spokenwoz_data_path `set_dir_to/SpokenWoz_preprocessed` \
+--tedlium_data_path `set_dir_to/TEDLIUM_release-3_CSF` \
 --test_dataset tedlium \
 --sr 8000 \
 --llama_path meta-llama/Meta-Llama-3-8B \
