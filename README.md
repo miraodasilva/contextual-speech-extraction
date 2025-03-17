@@ -4,7 +4,7 @@
 This repository contains the PyTorch implementation of the following paper:
 > **Contextual Speech Extraction: Leveraging Textual History as an Implicit Cue for Target Speech Extraction**<br>
 > Minsu Kim*, Rodrigo Mira*, Honglie Chen, Stavros Petridis, Maja Pantic (*Equal contribution)  <br>
-> \[[Paper]([https://arxiv.org/abs/](https://arxiv.org/abs/2503.08798))\]
+> [[Paper](https://arxiv.org/abs/2503.08798)]
 
 ## Requirements
 - python 3.9
