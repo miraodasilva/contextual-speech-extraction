@@ -339,5 +339,12 @@ The pre-trained models are available. <br>
 ## Citation
 If you find this work useful in your research, please cite the paper:
 ```
-
+@inproceedings{kim2025contextual,
+  title={Contextual Speech Extraction: Leveraging Textual History as an Implicit Cue for Target Speech Extraction},
+  author={Kim, Minsu and Mira, Rodrigo and Chen, Honglie and Petridis, Stavros and Pantic, Maja},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}
 ```
